@@ -6,6 +6,9 @@ git config --global user.email "oluwaseun.owamokele@kbc.be"
 mkdir AzureCloudDeploy
 cd AzureCloudDeploy
 
+# rename the 'master' branch to 'main'
+git branch -m master main
+
 # initialize empty git repository
 git init
 
